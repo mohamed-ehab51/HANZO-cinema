@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "16425844553",
+    "project_id": "wireless-cinema-e0d2b",
+    "storage_bucket": "wireless-cinema-e0d2b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:16425844553:android:f83654aca4f6199e6f6498",
+        "android_client_info": {
+          "package_name": "com.fcai.ecinema"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "16425844553-ui8ki11tfi5jss06vfjq3m8h4hilu5lh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCabKDTbah0YpRr1rpls6-5IqdvVzIyzCQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "16425844553-ui8ki11tfi5jss06vfjq3m8h4hilu5lh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#161621">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="#161621" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="239dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="90dp" />
+
+                    <TextView
+                        android:id="@+id/textView27"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="Welcome"
+                        android:textAlignment="center"
+                        android:textColor="#F1F1F1F1"
+                        android:textSize="34sp" />
+
+                    <TextView
+                        android:id="@+id/username"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="@string/user_name_internal"
+                        android:textAlignment="center"
+                        android:textColor="#F1F1F1F1"
+                        android:textSize="34sp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/Update_button"
+                android:layout_width="308dp"
+                android:layout_height="72dp"
+                android:layout_gravity="center"
+                android:backgroundTint="#302c3c"
+                android:drawableLeft="@drawable/edit_icon"
+                android:drawableRight="@drawable/arrow_icon"
+                android:onClick="update"
+                android:text="Update profile"
+                android:textColor="@color/white" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <Button
+                android:id="@+id/MY_Tickets_button"
+                android:layout_width="309dp"
+                android:layout_height="73dp"
+                android:layout_gravity="center"
+                android:backgroundTint="#302c3c"
+                android:drawableLeft="@drawable/ticket_icon"
+                android:drawableRight="@drawable/arrow_icon"
+                android:onClick="tickets"
+                android:textColor="@color/white"
+                android:text="My Tickets" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="100dp" />
+
+            <Button
+                android:id="@+id/Logout_button"
+                android:layout_width="307dp"
+                android:layout_height="69dp"
+                android:layout_gravity="center"
+                android:backgroundTint="#F74346"
+                android:drawableLeft="@drawable/logout_icon"
+                android:drawableRight="@drawable/arrow_icon"
+                android:onClick="logout"
+                android:textColor="@color/white"
+                android:text="Logout"
+                tools:ignore="MissingConstraints" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="54dp" />
+
+            <com.google.android.material.bottomnavigation.BottomNavigationView
+                android:id="@+id/backpro"
+                android:layout_width="match_parent"
+                android:layout_height="74dp"
+                android:layout_gravity="bottom|end"
+                android:background="#161621"
+                app:itemIconTint="#F74346"
+                app:itemTextColor="#F74346"
+                app:menu="@menu/button_nav_menu" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

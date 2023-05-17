@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#161621"
+    android:backgroundTint="#343434"
+    tools:context=".intro">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/entery"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center|center_horizontal|center_vertical"
+            android:background="#161621"
+            android:clickable="false"
+            android:contentDescription="TODO"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/arrr"
+            tools:ignore="MissingConstraints,VisualLintBounds"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="-4dp" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

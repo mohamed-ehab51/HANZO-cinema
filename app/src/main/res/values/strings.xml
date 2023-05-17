@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">HANZO cinema</string>
+    <string name="sign_innn">Send</string>
+    <string name="user_name_internal" />
+    <string name="sign_in">Sign in</string>
+    <string name="hotlinee">10040105</string>
+    <string name="conemail">hanzo.cinemas.egypt@gmail.com</string>
+    <string name="_________________or_________________">________________ or ________________</string>
+    <string name="email">Enter message</string>
+    <string name="Password">Enter message</string>
+    <string name="sign_up">Sign up</string>
+    <string name="textView6">________________ or ________________</string>
+    <string name="sign_in2">Don’t have an account ? Sign up</string>
+    <string name="entery">Enter message</string>
+    <string name="profile">Profile.png</string>
+    <string name="name">Full Name*</string>
+    <string name="username">Username*</string>
+    <string name="country">Country*</string>
+    <string name="emailID">Email Id*</string>
+    <string name="phone">Phone Number*</string>
+    <string name="skip">Skip</string>
+    <string name="Continue">Continue</string>
+</resources>
+
+

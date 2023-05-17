@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#161621"
+    tools:context=".letssignin">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="55dp"
+                android:layout_gravity="center_horizontal"
+                android:text="Profile"
+                android:textColor="#ffffff"
+                android:textSize="40dp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="239dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="90dp" />
+
+                    <TextView
+                        android:id="@+id/textView27"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="Welcome"
+                        android:textAlignment="center"
+                        android:textColor="#F1F1F1F1"
+                        android:textSize="34sp" />
+
+                    <TextView
+                        android:id="@+id/username"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="HI admin $"
+                        android:textAlignment="center"
+                        android:textColor="#F1F1F1F1"
+                        android:textSize="34sp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/Update_button"
+                android:layout_width="308dp"
+                android:layout_height="72dp"
+                android:layout_gravity="center_horizontal"
+                android:backgroundTint="#302c3c"
+                android:drawableLeft="@drawable/edit_icon"
+                android:drawableRight="@drawable/arrow_icon"
+                android:onClick="addf"
+                android:textColor="@color/white"
+                android:text="Add movie"
+                tools:ignore="MissingConstraints" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <Button
+                android:id="@+id/MY_Tickets_button"
+                android:layout_width="309dp"
+                android:layout_height="73dp"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/white"
+                android:backgroundTint="#302c3c"
+                android:drawableLeft="@drawable/ticket_icon"
+                android:drawableRight="@drawable/arrow_icon"
+                android:onClick="soldtickets"
+                android:text="Sold Tickets"
+                tools:ignore="MissingConstraints" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="100dp" />
+
+            <Button
+                android:id="@+id/Logout_button"
+                android:layout_width="307dp"
+                android:layout_height="69dp"
+                android:backgroundTint="#F74346"
+                android:textColor="@color/white"
+                android:drawableLeft="@drawable/logout_icon"
+                android:drawableRight="@drawable/arrow_icon"
+                android:onClick="logout"
+                android:text="Logout"
+                tools:ignore="MissingConstraints"
+                android:layout_gravity="center_horizontal" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="70dp" />
+
+            <com.google.android.material.bottomnavigation.BottomNavigationView
+                android:id="@+id/backpro"
+                android:layout_width="match_parent"
+                android:layout_height="74dp"
+                android:layout_gravity="center_horizontal"
+                android:background="#161621"
+                app:itemIconTint="#F74346"
+                app:itemTextColor="#F74346"
+                app:menu="@menu/button_nav_menu" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
